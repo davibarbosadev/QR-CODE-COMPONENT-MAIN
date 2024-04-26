@@ -1,19 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 /*
-
---- 01 TYPOGRAPHY SYSTEM
-
 - FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
 - SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-
-*/
-/* 
-- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
-- Weights: 400, 700 */
+ */
 
 :root {
 
@@ -31,12 +24,6 @@ html {
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-*:has(::after, ::before) {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
