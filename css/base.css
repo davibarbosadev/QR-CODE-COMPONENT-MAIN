@@ -10,17 +10,19 @@
 
 :root {
 
-    --white: hsl(0, 0%, 100%);
-    --light-gray: hsl(212, 45%, 89%);
-    --grayish-blue: hsl(220, 15%, 55%);
-    --dark-blue: hsl(218, 44%, 22%);
+    /* colors */
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-light-gray: hsl(212, 45%, 89%);
+    --clr-grayish-blue: hsl(220, 15%, 55%);
+    --clr-dark-blue: hsl(218, 44%, 22%);
 
-    --font:  "Outfit", sans-serif;
+    /* font-family */
+    --ff-sans-normal:  "Outfit", sans-serif;
 }
 
 html {
     font-size: 62.5%;
-    font-family: var(--font);
+    font-family: var(--ff-sans-normal);
 }
 
 * {
@@ -33,5 +35,5 @@ body {
     display: grid;
     place-content: center;
     min-height: 100vh;
-    background-color: var(--light-gray);
+    background-color: var(--clr-light-gray);
 }

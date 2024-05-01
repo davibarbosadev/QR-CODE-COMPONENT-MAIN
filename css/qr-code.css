@@ -3,24 +3,24 @@
     display: grid;
     padding: 1.6rem 1.6rem 3.2rem 1.6rem;
     border-radius: 12px;
-    background-color: var(--white);
+    background-color: var(--clr-white);
     text-align: center;
+}
 
-    & .qr-code--img {
-        width: 100%;
-        border-radius: 12px;
-        margin-bottom: 2.4rem;
-    }
+.qr-code--img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 2.4rem;
+}
 
-    & .qr-code--title {
-        font-size: 2.4rem;
-        font-weight: 800;
-        margin-bottom: 1.2rem;
-        color: var(--dark-blue)
-    }
-    
-    & .qr-code--description {
-        font-size: 1.8rem;
-        color: var(--grayish-blue);
-    }
+.qr-code--title {
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-bottom: 1.2rem;
+    color: var(--clr-dark-blue);
+}
+
+.qr-code--description {
+    font-size: 1.8rem;
+    color: var(--clr-grayish-blue);
 }
